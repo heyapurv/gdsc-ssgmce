@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import img1 from '../public/gdsc_logo.png'
 import img2 from '../public/gdsc_name.png'
+import { Link } from 'react-router-dom'
 
 export default () => {
 
@@ -16,7 +17,7 @@ export default () => {
     ]
     return (
         <nav className="bg-white border-b w-full md:static md:text-sm md:border-none sm:shadow-md ">
-            <div className="items-center  max-w-screen-xl mx-auto md:flex md:px-8">
+            <div className="items-center  max-w-screen-2xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block mx-2">
                        <div  className='flex sm:items-center '> 
                        <div className='flex'>
@@ -28,7 +29,7 @@ export default () => {
                               <img
                                 src={img2}
                                 alt="GDSC Logo"
-                                className='sm:w-64 w-56  sm:hidden '
+                                className='sm:w-64 w-60  sm:hidden '
                             />
                         </div>
                        <div className='text-left sm:text-center  text-sm hidden text-gray-600 sm:block ml-2
@@ -60,17 +61,17 @@ export default () => {
                         </button>
                     </div>
                 </div>
-                <div className={`flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
-                    <ul className="justify-end md:items-center space-y-6 md:flex md:space-x-10 md:space-y-0 ml-10 sm:ml-0">
+                <div className={`flex-1  pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
+                    <ul className="justify-end  md:items-center space-y-6 md:flex md:space-x-10 md:space-y-0 ml-10 sm:ml-24">
                         {
                             navigation.map((item, idx) => {
                                 return (
                                     <li key={idx} className="
                                     text-lg
                                     text-gray-700 hover:text-blue-600 text-left hover:scale-110 duration-200 hover hover:underline">
-                                        <a href={item.path} className="block">
+                                        <Link to={item.path} className="block">
                                             {item.title}
-                                        </a>
+                                        </Link>
                                     </li>
                                 )
                             })
