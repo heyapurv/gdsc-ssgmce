@@ -70,9 +70,9 @@ export default () => {
     return (
         <footer className="text-gray-500 bg-white px-4 py-5 shadow-2xl mx-auto md:px-8">
             <div className="gap-6 justify-between md:flex">
-                <div className="flex-1">
+                <div className="flex-1 ">
                     <div className="sm:max-w-xs max-w-xs ">
-                        <img src={img1} className="w-full ml-10 sm:ml-0 " />
+                        <img src={img1} className="w-full ml-3  sm:ml-0 " />
                         
                     </div>
                     
@@ -105,8 +105,16 @@ export default () => {
                     }
                 </div>
             </div>
-            <div className="mt-8 py-6 border-t items-center justify-between sm:flex">
-                <div className="mt-4 sm:mt-0">
+            <div className="mt-8 py-6 border-t items-center justify-between text-center sm:flex">
+            <div className='block sm:hidden'>
+
+                    <div className="mt-4 sm:mt-0 flex justify-center ">
+                        Made With <span className="mx-2"><svg class="text-red-400 w-6 h-auto fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84.02L256 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 .0003 232.4 .0003 190.9L0 190.9z"/>
+                    </svg></span> by  <a href="" className="ml-[5px] text-blue-700 ">Apurv Gore</a>
+                      </div>
+              </div>
+                <div className="mt-4 sm:mt-0 text-center">
                     &copy; 2023-2024 
                     <span className="text-red-600 ml-2">G</span>
                     <span className="text-blue-600 ">D</span>
@@ -114,13 +122,16 @@ export default () => {
                     <span className="text-yellow-600 mr-2">C</span>
                      SSGMCE 
                 </div>
-                <div className="mt-4 sm:mt-0 flex">
+                <div className='hidden sm:block'>
+
+                <div className="mt-4 sm:mt-0 flex justify-center ">
                     Made With <span className="mx-2"><svg class="text-red-400 w-6 h-auto fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 	  <path d="M0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84.02L256 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 .0003 232.4 .0003 190.9L0 190.9z"/>
 	</svg></span> by  <a href="" className="ml-[5px] text-blue-700 ">Apurv Gore</a>
                 </div>
+                </div>
                 <div className="mt-6 sm:mt-0">
-                    <ul className="flex items-center space-x-4">
+                    <ul className="flex items-center justify-center space-x-4">
                         <li className="w-10 h-10 border rounded-full flex bg-red-600 items-center justify-center">
                             <a href="javascript:void()">
                                 <svg class="svg-icon w-6 h-6 text-blue-400" viewBox="0 0 20 20">
