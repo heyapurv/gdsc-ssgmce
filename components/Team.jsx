@@ -20,10 +20,10 @@ export default () => {
                         {
                             team.map((item, idx) => (
                                 <li key={idx} className="flex gap-4 items-center">
-                                    <div className="flex-none w-24 h-24">
+                                    <div className="flex-none w-24 h-24  shadow-2xl">
                                         <img
                                             src={item.profile}
-                                            className="w-full h-full rounded-full"
+                                            className="w-full h-full rounded-lg shadow-2xl"
                                             alt=""
                                         />
                                     </div>

@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom'
+import img1 from '../public/gdsc_full.png'
 export default () => {
 
     const footerNavs = [
         {
-            label: "Company",
+            label: "Events",
             items: [
                 {
-                    href: 'javascript:void()',
-                    name: 'Partners'
+                    href: '/study_jams',
+                    name: 'Study Jams'
                 },
                 {
                     href: 'javascript:void()',
@@ -14,32 +16,31 @@ export default () => {
                 },
                 {
                     href: 'javascript:void()',
-                    name: 'Team'
+                    name: ''
                 },
                 {
                     href: 'javascript:void()',
-                    name: 'Careers'
+                    name: ''
                 },
             ],
         },
         {
-            label: "Resources",
+            label: "Workshops",
             items: [
                 {
                     href: 'javascript:void()',
-                    name: 'contact'
+                    name: 'AI & ML'
                 },
                 {
                     href: 'javascript:void()',
-                    name: 'Support'
+                    name: 'Android'
                 },
                 {
                     href: 'javascript:void()',
-                    name: 'Docs'
                 },
                 {
                     href: 'javascript:void()',
-                    name: 'Pricing'
+                    name: ''
                 },
             ],
         },
@@ -48,15 +49,15 @@ export default () => {
             items: [
                 {
                     href: 'javascript:void()',
-                    name: 'Terms'
+                    name: 'Connect Us'
                 },
                 {
                     href: 'javascript:void()',
-                    name: 'License'
+                    name: ''
                 },
                 {
                     href: 'javascript:void()',
-                    name: 'Privacy'
+                    name: ''
                 },
                 {
                     href: 'javascript:void()',
@@ -70,31 +71,11 @@ export default () => {
         <footer className="text-gray-500 bg-white px-4 py-5 shadow-2xl mx-auto md:px-8">
             <div className="gap-6 justify-between md:flex">
                 <div className="flex-1">
-                    <div className="max-w-xs">
-                        <img src="https://www.floatui.com/logo.svg" className="w-32" />
-                        <p className="leading-relaxed mt-2 text-[15px]">
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                        </p>
+                    <div className="sm:max-w-xs max-w-xs ">
+                        <img src={img1} className="w-full ml-10 sm:ml-0 " />
+                        
                     </div>
-                    <form 
-                        onSubmit={(e) => e.preventDefault()}
-                    >
-                        <label className="block pt-4 pb-2">
-                            Stay up to date
-                        </label>
-                        <div className="max-w-sm flex items-center border rounded-md p-1">
-                            <input 
-                                type="email"
-                                placeholder="Enter your email"
-                                className="w-full p-2.5 outline-none"
-                            />
-                            <button
-                                className="p-2.5 rounded-md text-white bg-indigo-600 outline-none shadow-md focus:shadow-none sm:px-5"
-                            >
-                                Subscribe
-                            </button>
-                        </div>
-                    </form>
+                    
                 </div>
                 <div className="flex-1 mt-10 space-y-6 items-center justify-between sm:flex md:space-y-0 md:mt-0">
                     {
@@ -109,13 +90,13 @@ export default () => {
                                 {
                                     item.items.map(((el, idx) => (
                                         <li key={idx}>
-                                            <a 
-                                                href={el.href}
+                                            <Link 
+                                                to={el.href}
                                                 className="hover:underline hover:text-indigo-600"
                                             
                                             >
                                                 { el.name }
-                                            </a>
+                                            </Link>
                                         </li>
                                     )))
                                 }
