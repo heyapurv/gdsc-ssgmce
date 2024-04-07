@@ -1,10 +1,11 @@
 import team from '../public/Data/data'
+import LF from './LF'
 export default () => {
 
    
     return (
         <section className="py-14">
-            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+            <div className="max-w-screen-2xl mx-auto px-4 md:px-8">
                 <div className="text-center">
                     <h3 className="text-gray-600 text-3xl font-semibold sm:text-6xl">
                         Meet our Team
@@ -13,6 +14,7 @@ export default () => {
                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic earum tempora animi corrupti expedita quos doloremque dignissimos eaque, est quam.
                     </p>
                 </div>
+                <LF/>
                 <div className="mt-12">
                     <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                         {

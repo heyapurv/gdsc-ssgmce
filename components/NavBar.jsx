@@ -3,6 +3,7 @@ import img1 from '../public/gdsc_logo.png'
 import img2 from '../public/gdsc_name.png'
 import { Link } from 'react-router-dom'
 
+
 export default () => {
 
     const [state, setState] = useState(false)
@@ -10,7 +11,7 @@ export default () => {
     // Replace javascript:void(0) paths with your paths
     const navigation = [
         { title: "Home", path: "/" },
-        { title: "Workshops & Events", path: "javascript:void(0)" },
+        { title: "Workshops & Events", path: "" },
         { title: "Team", path: "/team" },
         { title: "Blogs", path: "javascript:void(0)" },
         { title: "ContactUs", path: "javascript:void(0)" }
@@ -76,6 +77,7 @@ export default () => {
                                 )
                             })
                         }
+                    
                     
                    
                     </ul>
