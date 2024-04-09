@@ -7,6 +7,14 @@ const team = [
         twitter: "https://x.com/Aditya_14920251?t=i1R2Y957ysK4qCOKa0Lyvw&s=09",
     },
     {
+        profile:"",
+        name:"Apurv Gore",
+        title: "Full Stack Developer",
+        linkedin:"",
+        twitter:""
+
+    },
+    {
         profile:"../public/Data/members/atharvpathak.png",
         name:"Atharv Pathak ",
         title:"Content Writer",
@@ -120,6 +128,13 @@ const team = [
         twitter:"https://twitter.com/DoseSanika",
     },
     {
+       profile : "",
+       name: "Saurabh Gaikwad",
+       title: "Core Team Member",
+       linkedin:"",
+       twitter:""
+    },
+    {
         profile:"../public/Data/members/shivanijangle.jpeg",
         name:"Shivani Jangle ",
         title:"Event Organizer Team Member",
@@ -162,7 +177,7 @@ const team = [
         twitter:"https://x.com/LaholeVaishnavi?t=7SWvROnuwjBLCWTos-qsXA&s=09",
     },
     {
-        profile:"../public/Data/members/vedantdarokar.jpg",
+        profile:("../public/Data/members/vedantdarokar.jpg"),
         name:"Vedant Darokar ",
         title:"Co-ordinator Team Member ",
         linkedin:"https://www.linkedin.com/in/vedant-darokar-3241a3286/",

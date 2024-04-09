@@ -12,12 +12,11 @@ function App() {
 
   return (
    <>
-    <NavBar/>
+     <NavBar/>
      <Routes>
-     <Route exact path='/' element={<Hero/>}></Route>
-     <Route exact path='/team' element={<Team/>}></Route>              
-                  
-     <Route exact path='/study_jams' element={<StudyJams/>}></Route> 
+        <Route exact index path='' element={<Hero/>}></Route>
+        <Route exact path='/team' element={<Team/>}></Route>              
+        <Route exact path='/study_jams' element={<StudyJams/>}></Route> 
      </Routes>
      <Footer/>
    </>

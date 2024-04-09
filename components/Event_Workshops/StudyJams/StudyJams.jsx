@@ -4,6 +4,7 @@ import StudyJams_Gallary2 from "./StudyJams_Gallary2"
 import StudyJams_Gallary3 from "./StudyJams_Gallary3"
 import img1 from '../../../public/googlecloud.png'
 import img2 from '../../../public/anim1.gif'
+import ResourcePerson from "./ResourcePerson"
 
 export default () => {
 
@@ -11,9 +12,9 @@ export default () => {
     return (
        <>
           <section className="py-14">
-            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
-                <span>
-                    <img src={img1} className="sm:w-12 w-8 sm:animate-bounce" alt="" />
+            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8 flex">
+                <span >
+                    <img src={img1} className="sm:w-28 w-8 sm:animate-bounce mr-5 mt-5" alt="" />
                 </span>
                 <div className="relative max-w-5xl mx-auto text-center">
                     <div className="relative z-10">
@@ -32,6 +33,7 @@ export default () => {
                 </div>
             </div>
         </section>
+        
         <section className=" sm:mx-40  sm:grid sm:grid-cols-2 ">
              <div className="mt-10">
              <Timeline/>
@@ -45,6 +47,9 @@ export default () => {
                 </span>
             </div>
             
+        </section>
+        <section>
+            <ResourcePerson/>
         </section>
        </>
     )

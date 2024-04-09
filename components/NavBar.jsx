@@ -17,7 +17,7 @@ export default () => {
         { title: "ContactUs", path: "javascript:void(0)" }
     ]
     return (
-        <nav className="bg-white border-b w-full md:static md:text-sm md:border-none sm:shadow-md ">
+        <nav className="bg-white border-b w-full md:static md:text-sm md:border-none sm:shadow-md rounded-2xl">
             <div className="items-center  max-w-screen-2xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block mx-2">
                        <div  className='flex sm:items-center '> 
