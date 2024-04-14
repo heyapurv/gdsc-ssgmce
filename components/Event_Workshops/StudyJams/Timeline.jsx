@@ -29,10 +29,7 @@ import {
 
                 </div>
               <Typography variant="small" color="gray" className="font-normal text-gray-600  md:block hidden">
-                The key to more success is to have a lot of pillows. Put it this way, it took me
-                twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                luv.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas, perspiciatis earum amet voluptates atque similique, facere suscipit dicta, deserunt sed ad. Eaque officiis culpa non vero corrupti quaerat ipsa sapiente exercitationem cupiditate molestias unde quam, sed laborum fuga.
               </Typography>
             </TimelineBody>
           </TimelineItem>
@@ -50,10 +47,7 @@ import {
 
                 </div>
               <Typography variant="small" color="gary" className="font-normal text-gray-600 md:block hidden">
-                The key to more success is to have a lot of pillows. Put it this way, it took me
-                twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                luv.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, culpa. Nulla nobis, perferendis distinctio repellendus odit labore nam voluptatibus consectetur magni consequuntur recusandae eos, accusamus fugit accusantium ad asperiores. Ab!
               </Typography>
             </TimelineBody>
           </TimelineItem>
@@ -70,10 +64,7 @@ import {
                
                 </div>
               <Typography variant="small" color="gary" className="font-normal text-gray-600 md:block hidden">
-                The key to more success is to have a lot of pillows. Put it this way, it took me
-                twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                luv.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia corporis tempore sed rem doloremque quam quidem tenetur vero! Vero ex magnam tempora dicta facilis, aliquid veritatis non debitis. Quaerat, culpa!
               </Typography>
               
             </TimelineBody>

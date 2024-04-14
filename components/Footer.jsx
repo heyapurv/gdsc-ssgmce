@@ -117,25 +117,25 @@ export default () => {
                 </div>
                 <div className="mt-6 sm:mt-0">
                     <ul className="flex items-center justify-center space-x-4">
-                        <li className="w-10 h-10 border rounded-full flex bg-red-600 items-center justify-center">
+                        <li className="w-10 h-10 border rounded-full flex bg-red-600 items-center justify-center hover:shadow-xl hover:-scale-90 duration-500">
                             <a href="javascript:void()">
                             <svg className='w-6 h-6 svg-icon text-white' xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 462.799"><path fill-rule="nonzero" d="M403.229 0h78.506L310.219 196.04 512 462.799H354.002L230.261 301.007 88.669 462.799h-78.56l183.455-209.683L0 0h161.999l111.856 147.88L403.229 0zm-27.556 415.805h43.505L138.363 44.527h-46.68l283.99 371.278z"/></svg>
                             </a>
                         </li>
 
-                        <li className="w-10 h-10 border rounded-full flex bg-green-600 items-center justify-center">
+                        <li className="w-10 h-10 border rounded-full flex bg-green-600 items-center justify-center hover:shadow-xl hover:-scale-90 duration-500">
                             <a href="javascript:void()">
                             
                             </a>
                         </li>
 
-                        <li className="w-10 h-10 border rounded-full flex  bg-blue-600 items-center justify-center">
+                        <li className="w-10 h-10 border rounded-full flex  bg-blue-600 items-center justify-center hover:shadow-xl hover:-scale-90 duration-500">
                             <a href="javascript:void()">
                                 
                             </a>
                         </li>
 
-                        <li className="w-10 h-10 border rounded-full  bg-yellow-600 flex items-center justify-center">
+                        <li className="w-10 h-10 border rounded-full  bg-yellow-600 flex items-center justify-center hover:shadow-xl hover:-scale-90 duration-500">
                             <a href="javascript:void()">
                                 
                             </a>

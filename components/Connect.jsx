@@ -23,8 +23,8 @@ export default () => {
             title: "Follow us on X",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: {
-                name: "Follow us",
-                href: "https://in.linkedin.com/company/gdscssgmce"
+                name: "Send us DMs",
+                href: "https://twitter.com/gdsc_ssgmce"
             },
         },
         {
@@ -34,8 +34,8 @@ export default () => {
             title: "Follow us on Linkedin",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: {
-                name: "Send us DMs",
-                href: "https://twitter.com/gdsc_ssgmce"
+                name: "Follow Us",
+                href: "https://in.linkedin.com/company/gdscssgmce"
             },
         },
     ]

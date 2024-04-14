@@ -10,11 +10,11 @@ export default () => {
 
     // Replace javascript:void(0) paths with your paths
     const navigation = [
-        { title: "Home", path: "/" },
-        { title: "Workshops & Events", path: "" },
-        { title: "Team", path: "/team" },
-        { title: "Blogs", path: "javascript:void(0)" },
-        { title: "ContactUs", path: "javascript:void(0)" }
+        { title: "Home", path: "/", color:"red" },
+        { title: "Workshops & Events", path: "/eventandworkshops",color:"blue" },
+        { title: "Team", path: "/team", color:"green" },
+        { title: "Blogs", path: "javascript:void(0)", color:"yellow" },
+
     ]
     return (
         <nav className="bg-white border-b w-full md:static md:text-sm md:border-none sm:shadow-md rounded-2xl">
@@ -67,9 +67,13 @@ export default () => {
                         {
                             navigation.map((item, idx) => {
                                 return (
-                                    <li key={idx} className="
-                                    text-lg
-                                    text-gray-700 hover:text-blue-600 text-left hover:scale-110 duration-200 hover hover:underline">
+                                    <li key={idx} className={`text-lg text-gray-700 ${ 
+                                    item.color === 'blue' ? 'hover:text-blue-600' :
+                                    item.color === 'red' ? 'hover:text-red-600' :
+                                    item.color === 'green' ? 'hover:text-green-600':
+                                    item.color === 'yellow' ? 'hover:text-yellow-600': 
+                                    'hover:text-gray-800'}
+                                     text-left hover:scale-110 duration-200 hover hover:underline`}>
                                         <Link to={item.path} className="block">
                                             {item.title}
                                         </Link>

@@ -1,6 +1,5 @@
 import Connect from './Connect'
-import Gallery from './Gallery'
-import CarouselCustomNavigation from './MainCarousel'
+
 
 
 import React from 'react'
