@@ -2,17 +2,17 @@ import { Carousel } from "@material-tailwind/react";
 import Details from "./Details";
 const team = [
     {
-        avatar: "https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-        name: "Martiana dialan",
-        title: "Product designer",
+        avatar: "",
+        name: "Saurabh Wankhede",
+        title: "Core Team",
         
         linkedin: "javascript:void(0)",
         twitter: "javascript:void(0)",
     },
     {
-        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-        name: "Micheal colorand",
-        title: "Software engineer",
+        avatar: "",
+        name: "Vikas Gawade",
+        title: "lorem ispum dolor",
     
         linkedin: "javascript:void(0)",
         twitter: "javascript:void(0)",
@@ -81,7 +81,7 @@ export default () => {
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="max-w-2xl mx-auto text-center">
                     <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        Our customers are always happy
+                    Lorem ipsum dolor sit amet.
                     </h3>
                     <p className="mt-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis sollicitudin quam ut tincidunt.

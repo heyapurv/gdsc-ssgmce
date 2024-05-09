@@ -24,7 +24,7 @@ export default ()  => {
       </Accordion>
       <Accordion open={open === 2}>
         <AccordionHeader onClick={() => handleOpen(2)}>
-          How to use Material Tailwind?
+        Lorem ipsum dolor sit amet.
         </AccordionHeader>
         <AccordionBody>
           We&apos;re not always in the position that we want to be at. We&apos;re constantly
@@ -34,7 +34,7 @@ export default ()  => {
       </Accordion>
       <Accordion open={open === 3}>
         <AccordionHeader onClick={() => handleOpen(3)}>
-          What can I do with Material Tailwind?
+          Lorem ipsum dolor sit amet.
         </AccordionHeader>
         <AccordionBody>
           We&apos;re not always in the position that we want to be at. We&apos;re constantly

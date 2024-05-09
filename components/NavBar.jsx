@@ -13,7 +13,7 @@ export default () => {
         { title: "Home", path: "/", color:"red" },
         { title: "Workshops & Events", path: "/eventandworkshops",color:"blue" },
         { title: "Team", path: "/team", color:"green" },
-        { title: "Blogs", path: "javascript:void(0)", color:"yellow" },
+        { title: "Blogs", path: "/blogs", color:"yellow" },
 
     ]
     return (

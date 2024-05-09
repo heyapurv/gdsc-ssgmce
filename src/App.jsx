@@ -8,6 +8,7 @@ import StudyJams from '../components/Event_Workshops/StudyJams/StudyJams'
 import AIML from '../components/Event_Workshops/AIML/AIML'
 import Android from '../components/Event_Workshops/Android/Android'
 import EventAndWorkshop from '../components/EventAndWorkshop'
+import Blogs from '../components/Blogs'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/aiml' element={<AIML/>}></Route> 
         <Route exact path='/android' element={<Android/>}></Route> 
         <Route exact path='/eventandworkshops' element={<EventAndWorkshop/>}></Route> 
+        <Route exact path='/blogs' element={<Blogs/>}></Route> 
      </Routes>
      <Footer/>
    </>

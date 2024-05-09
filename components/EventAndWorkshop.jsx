@@ -10,6 +10,13 @@ import { Link } from "react-router-dom";
   export default() =>{
     return (
       <>
+
+       <h1 className="text-center text-gray-800 text-4xl sm:text-5xl underline underline-offset-4 font-bold my-5">
+        Workshops & Events 
+       </h1>
+
+
+
         <div className="grid sm:grid-cols-2 gap-10 mx-10 my-10">
             <Card className="sm:w-full sm:max-w-[48rem] sm:flex-row hover:shadow-2xl  duration-200">
                 {/* <CardHeader
